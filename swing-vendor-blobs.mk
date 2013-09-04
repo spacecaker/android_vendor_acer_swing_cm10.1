@@ -180,7 +180,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acerril-hook-oem.so:system/lib/libril-acerril-hook-oem.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/audio.policy.msm8960.so:system/lib/hw/audio.policy.msm8960.so \
+    $(VENDOR_BLOB_FOLDER)/lib/hw/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw:system/lib/hw \
     $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so \
