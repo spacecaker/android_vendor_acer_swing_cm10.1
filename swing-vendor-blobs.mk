@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/bin/bridgemgrd:system/bin/bridgemgrd \
     $(VENDOR_BLOB_FOLDER)/bin/btnvtool:system/bin/btnvtool \
     $(VENDOR_BLOB_FOLDER)/bin/cnd:/system/bin/cnd \
+    $(VENDOR_BLOB_FOLDER)/bin/installd:/system/bin/installd \
     $(VENDOR_BLOB_FOLDER)/bin/curl:/system/bin/curl \
     $(VENDOR_BLOB_FOLDER)/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     $(VENDOR_BLOB_FOLDER)/bin/dun-server:/system/bin/dun-server \
@@ -89,6 +90,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libgabi++.so:system/lib/libgabi++.so \
     $(VENDOR_BLOB_FOLDER)/lib/libgemini.so:system/lib/libgemini.so \
     $(VENDOR_BLOB_FOLDER)/lib/libidl.so:system/lib/libidl.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libexternal.so:system/lib/libexternal.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     $(VENDOR_BLOB_FOLDER)/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
@@ -125,6 +127,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libOpenCL.so:system/lib/libOpenCL.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqdi.so:system/lib/libqdi.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqdp.so:system/lib/libqdp.so \
+    $(VENDOR_BLOB_FOLDER)/lib/liboverlay.so:system/lib/liboverlay.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi.so:system/lib/libqmi.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
@@ -132,6 +135,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqmiservices.so:system/lib/libqmiservices.so \
     $(VENDOR_BLOB_FOLDER)/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    $(VENDOR_BLOB_FOLDER)/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     $(VENDOR_BLOB_FOLDER)/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
     $(VENDOR_BLOB_FOLDER)/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     $(VENDOR_BLOB_FOLDER)/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
@@ -179,10 +183,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acer-qmi-1.so:system/lib/libril-acer-qmi-1.so \
     $(VENDOR_BLOB_FOLDER)/lib/libril-acerril-hook-oem.so:system/lib/libril-acerril-hook-oem.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.msm8960.so:system/lib/hw/audio.primary.msm8960.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/audio_policy.msm8960.so:system/lib/hw/audio_policy.msm8960.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw/gralloc.msm8960.so:system/lib/hw/gralloc.msm8960.so \
-    $(VENDOR_BLOB_FOLDER)/lib/hw:system/lib/hw \
     $(VENDOR_BLOB_FOLDER)/lib/libm.so:system/lib/libm.so \
     $(VENDOR_BLOB_FOLDER)/lib/hw/power.default.so:system/lib/hw/power.default.so \
     $(VENDOR_BLOB_FOLDER)/vendor/lib/hw/power.swing.so:system/vendor/lib/hw/power.swing.so  
